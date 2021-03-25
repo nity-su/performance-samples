@@ -36,6 +36,10 @@ How to run the tests
     Each represents the performance result for the layout with ConstraintLayout and with
     traditional.
 
+주의사항이 더 있다. 
+1. systrace는 파이썬이 3.0 미만으로 적용해야 가능하다 
+2. 설령 결과물이 나오더라도 무작정 누르면 비어있는 화면이 나옴, 그래서 chrome://tracing 에서 load 해야 한다
+
 (Optional)
 - The app also logs the measurement result using OnFrameMetricsAvailableListener, but it isn't
   exported to any external files. You can check those stats as well.
