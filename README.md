@@ -27,6 +27,8 @@ integration from the Jetpack Benchmark library.
 This sample compares how different ViewGroups
 (ConstraintLayout vs traditional layouts) affect the UI performance.
 
+[위 샘플을 빌드하는 과정에서 겪은 막힌 부분에 대한 설명](https://github.com/nity-su/performance-samples/tree/main/ConstraintLayoutPerformance) 
+
 ### Reporting Issues
 
 You can report an [Issue with a
